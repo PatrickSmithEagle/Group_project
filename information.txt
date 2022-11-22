@@ -1,0 +1,12 @@
+subgraph
+consists of a subset of a graph's vertices and the edges connecting those vertices
+connected component
+a subgraph consisting of the set of vertices that are reachable from a given vertex
+simple path
+a path that does not pass through the same vertex more than once
+undirected path
+has edges which indicate no direction, a graph processing algorithm can move in either direction along an edge that connects two vertices
+cycle
+a path that begins and ends at the same vertex
+directed graph
+aka digraph specifies an explicit direction each edges is called a directed edge and has a source vertex and destination vertex. When there is only one directed edge connecting two vertices the vertices are in relation of predecessor(source) & successor(destination. However. the relation of adjacency between them is asymmetric; the source is adjacent to the destination but not vice versa. To convert undirected to directed replace each edge in undirected with a pair of edges point 
