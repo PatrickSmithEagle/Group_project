@@ -1,0 +1,198 @@
+When can concurrence become an issue in service requests?
+when there are simultaneous conflicting requests
+Why are SOAP APIs difficult to use?
+They are less amenable to small changes.
+Which API verb creates a new entry?
+POST
+How should you approach an API or web service for testing purposes?
+by thinking of it as a black box
+You are exploring the Star Wars API further and want to look for a specific starship named Xanadu. What should you try?
+starship?search=Xanadu
+What are the basic components of a request in Postman?
+a verb and a URL
+What is required for a Basic Auth in Postman?
+a username and a password
+Which operation returns an authorization token upon successful request?
+the auth server
+What is the core function of authorization?
+validating permissions
+If you have trouble determining where to generate a bearer token, what should you do?
+Ask an application developer.
+What should an unauthenticated PUT call return?
+404 not found
+Which GET call in the Star Wars API returns the data structure for a people entry?
+people/schema
+How should you determine whether dependent content should be deleted together with the parent content?
+by analyzing the business justifications
+Why should you not try to automate everything?
+It is too time-consuming and inefficient.
+What characterizes automation that is workflow-driven?
+mimicking user interactions
+Why would you create a mock server?
+to isolate the real server
+What does the future of microservices have in common with the future of smart devices?
+distributed computing using APIs
+How do hackers exploit APIs in attacks?
+through automation
+Why would you set the number of iterations in Postman to 10,000?
+to see how processing time scales
+REST
+representation state transfer
+SOAP
+simple object access protocol approach
+Idempotency
+action that will always result in the same server state
+Safety
+the action doesn't have any effect on the state
+What Python module can be used to easily interact with an API?
+requests
+You need to use a username and password in order to authenticate an api call.
+FALSE
+Which command will show you all the keys available in a Python dictionary?
+my_dictionary.keys()
+What is a simple way to find out if there are duplicate entries in a Python list?
+compare len(list) and len(set(list))
+What is the most important thing in effectively testing apis?
+Using them and understanding how they work
+What are some of the biggest challenges we face when working with data?
+Data that is in the wrong format, Missing or incomplete Data, Data formatting and structure
+What is a valid way to create a data table in Google Charts?
+arrayToDataTable
+How can you convert the string "1" to the integer 1 in Python?
+int("1")
+Creating a service account means that anyone can access your Google spreadsheets.
+FALSE
+If you wanted to write something to a cell B4 in Google spreadsheet using the gspread library you could use the following command.
+update_cell(2,4,Value)
+How do we allow gspread to read and write to a spreadsheet?
+Add our services email as a user on the spreadsheet.
+The Python selenium module will let you run scripts on any major browser?
+Yes, If install the correct Drivers
+A class name will always be a unique selector when finding an element on a page.
+FALSE
+You should only use Selenium for regression testing.
+FALSE
+The following command will allow you to hover over an element.
+ActionChains(driver).move_to_element()
+What syntax does Python use to replace items in a template?
+$variable
+A command you can use in Python selenium to select all the text in a field is:
+send_keys( Keys.CONTROL + "a")
+In order to support another browser, the code changes required in the automation script are _____.
+the driver of the browser loaded in the code must be changed to the required browser driver
+Which of these is not a layer in Mike Cohn's Test Automation Pyramid?
+Integration tests
+Why do we need to automate testing?
+Makes cross-device and cross-browser testing easy, Ensures regression testing, Decreases cost and time of testing
+Why is it important to understand the HTML DOM structure?
+To navigate the structure of HTML documents, To create and build documents, To access and manipulate HTML documents
+Xpath expressions look very much like the path expressions you use with traditional computer file systems.
+TRUE
+Which of the following is a characteristic of an 'id' attribute?
+Must be unique in the document
+Why is it advised to use a relative xpath over an absolute xpath?
+Any change in the application structure could invalidate the absolute xpath.
+How can drag and drop be performed?
+To drag a source element by a specific offset, To drag a source element to a target element
+The 'submit' method must be invoked on the submit button of the form only.
+FALSE
+Why do we need explicit waits?
+Explicit waits are used to pause the script until a certain condition has been satisfied.
+Why do we need to add waits to asynchronous pages?
+When a webpage is loaded asynchronously, some elements take longer than others to load. Waits add a time interval between actions performed by the WebDriver.
+BDD is a variation of Extreme Programming (XP).
+FALSE
+BDD emerged out of the failures of the traditional model of software development.
+TRUE
+What is a user story?
+An informal description of a software feature written from the perspective of an end user.
+What are 'concrete examples'?
+specific user stories that are detailed and full of context
+What are the four problems that Vanguard identified as results of NOT implementing BDD?
+Throw Your Problem Over the Wall; Traditional Requirements Practice; Safety Net; Business Priority
+BDD is not designed to discover what product to make.
+TRUE
+What three perspectives are included in the 'Three Amigos' meeting?
+Product Owner; Testing or QA; Development
+Defining your acceptance criteria in the Gherkin language gives you an executable specification, but is also easily understood by business stakeholders.
+TRUE
+The 'Three Amigos' meeting should happen at a regular interval, usually once per week.
+FALSE
+Which of these features is NOT part of Cucumber?
+continuous deployment
+To execute Cucumber, you must include it within the Gemfile that describes all the necessary Ruby libraries for the application.
+TRUE
+The Gherkin DSL was designed to be used by what BDD framework?
+Cucumber
+The scenarios that describe your concrete examples will be found in what type of file?
+.feature
+For most organizations, when they fully implement BDD they do so over the course of a few weeks.
+FALSE
+Change tracking systems like GitHub Issues track all changes to a product--both bugs and enhancement requests
+TRUE
+The reason for using a Change Tracking System like GitHub Issues is that it
+allows project management to understand how complete or incomplete the product is, ensures that proposed changes are not lost, encourages decisions regarding specific changes.
+retrieves information from a server
+get
+can create a subordinate resource
+post
+can replace a resource at a known URL
+put
+removes a resource
+delete
+JSON is represented in Python by a dictionary
+TRUE
+All HTML elements must have a name, id, or class.
+FALSE
+The HTML DOM structures the web page as a tree
+TRUE
+The HTML DOM defines the logical structure of documents and the way a document is accessed and manipulated
+TRUE
+HTML name attribute is unique within a document
+FALSE
+Using relative XPath is preferred over absolute XPath
+TRUE
+HTML class attributes are unique within a document
+FALSE
+Why are Web elements and locators separate concerns?
+Page structure could change at any time due to dynamic content, referencing every element directly from root-to-child becomes unwieldy for large pages, Elements might disappear from a page due to code changes or even bugs.
+Every element on a page might have a unique locator, but it is not required
+TRUE
+Testing often requires the tester to identify manually the element to test and its locator
+TRUE
+CSS selectors can uniquely identify any given element on a web page.
+FALSE
+Which of the following CSS selectors would select only "div" elements with the class name "parent"?
+div.parent
+In Selenium tests, an element may exist before it appears
+TRUE
+In Selenium tests, what type of wait should one use if an element might load slowly, such as an image?
+Explicit
+In Selenium, how do find_element and find_elements differ?
+If no applicable elements are found, find_elements returns an empty list, If multiple applicable elements exist, find_element returns only the first, If no applicable element is found, find_element throws an exception
+In pytest-bdd, scenario outlines can usually be replaced by pytest parametrization.
+TRUE
+A Gherkin Background section will execute before each Scenario
+TRUE
+GitHub can be used to track issues.
+TRUE
+Issues can be created in a variety of ways. Give an example of at least three.
+created from a repository, an item in a task list, a note in a project
+To create a task list, you must preface list items with a:
+hyphen and space followed by []
+What are three best practices for using GitHub Issues
+If just starting, go with the defaults; Encourage search to avoid duplication; Add structure to issue reporting and encourage reporters to be specific
+What are two ways you can view a project?
+High density table layout, board
+When linking a pull request to an issue by using a supported keyword in the pull request's description or in a commit message, the pull request must be on the default branch.
+TRUE
+You can manually link up to ____ issues to each pull request.
+10
+You can use ____ and ____ to track work.
+labels, milestones
+You can use your personal dashboard to find recent activity.  Give two examples of when open issues and pull requests will appear in the recent activity section.
+you have opened an issue or pull request, someone has commented on an issue or pull request you opened
+You cannot customize notifications and subscriptions.
+FALSE
+You cannot link an issue to a pull request.
+FALSE

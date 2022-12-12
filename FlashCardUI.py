@@ -1,3 +1,7 @@
+# Team Hematite
+# 12-5-22
+# flashcard listbag program
+
 from FlashCards import FlashCards
 from Card import Card
 import tkinter as tk
@@ -21,6 +25,7 @@ COLOR3 = '#d96459'
 COLOR4 = '#f2e394'
 
 
+# user interface
 class FlashCardUI:
     def __init__(self):
         self.main_window = tk.Tk()
@@ -44,6 +49,7 @@ class FlashCardUI:
         self.draw_card(0, 0, CORNER_RADIUS, "")
         tk.mainloop()
 
+    # checks if there are available cards in the bag and if so chooses one
     def next_card(self):
         self.text.set("Next")
         if self.f.get_cards().is_empty():
@@ -54,6 +60,7 @@ class FlashCardUI:
         self.draw_card(0, 0, CORNER_RADIUS, self.card.get_side1())
         self.side = 1
 
+    # shows the other side of a card
     def flip(self):
         if self.side == 1:
             self.draw_card(0, 0, CORNER_RADIUS, self.card.get_side2())
@@ -62,6 +69,7 @@ class FlashCardUI:
             self.draw_card(0, 0, CORNER_RADIUS, self.card.get_side1())
             self.side = 1
 
+    # draws the card and determines the best text size and spacing to fit the text on the card
     def draw_card(self, x, y, r, t):
         self.canvas.delete("all")
         size_inc_amt = (len(t)-2)//2*4
